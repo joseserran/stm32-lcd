@@ -16,16 +16,40 @@
     (GND_POWER
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
+    ("DIODE 34/DD"
+      (FullPartName "DIODE 34/DD.Normal")
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CONN PWR 5-P"
+      (FullPartName "CONN PWR 5-P.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HR911105A
+      (FullPartName "HR911105A.Normal")
+      (LibraryName "D:\新建文件夹 (2)\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 13"
+      (FullPartName "CONN SOCKET 13.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PWR 3-H"
+      (FullPartName "CONN PWR 3-H.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
@@ -42,33 +66,58 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\stm32.dsn")
+      (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "E:\SPB_DATA\library1.olb"))
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" "Library" ".\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 165"))
+        (Placement "44 0 1 -1 -1 -4 -23 0 231 0 636"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 883 125 434")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "894 292")
-        (Zoom "348"))
-      (Path "E:\SPB_DATA\LIBRARY1.OLB")
-      (Package "18B20"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 954 50 253")
-        (Scroll "610 539")
-        (Zoom "152")
+        (Placement "44 0 1 -1 -1 -4 -23 132 1250 132 620")
+        (Scroll "632 815")
+        (Zoom "112")
         (Occurrence "/"))
-      (Path "E:\SPB_DATA\STM32.DSN")
+      (Path "D:\新建文件夹 (2)\STM32.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 1228 110 598")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "95"))
+      (Path "D:\新建文件夹 (2)\LIBRARY1.OLB")
+      (Package "DM9000A"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 154 926 154 462")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "62 1")
+        (Zoom "126"))
+      (Path "D:\新建文件夹 (2)\LIBRARY1.OLB")
+      (Package "HR911105A"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 816 44 352")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "786 266")
+        (Zoom "317"))
+      (Path "D:\新建文件夹 (2)\LIBRARY1.OLB")
+      (Package "AE1117")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.5\tools\capture\library"))
